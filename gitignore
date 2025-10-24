@@ -1,0 +1,89 @@
+# ===================================
+# Python ML Project .gitignore
+# ===================================
+
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+parts/
+sdist/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Logs and databases
+*.log
+*.sqlite3
+*.db
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE / Editor specific files
+.vscode/
+.spyder-py3/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Data files (optional — keep if small or needed)
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.json
+*.parquet
+
+# Model and large binary files
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth
+*.sav
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Anaconda / Conda
+.anaconda/
+.conda/
+.condarc
+.continuum/
+
+# Jupyter and IPython
+.jupyter/
+.ipython/
+
+# Others
+*.bak
+*.tmp
+
+# Streamlit cache
+.streamlit/
+
+# Docker
+docker-compose*.yml
+Dockerfile
+
+# ===================================
+# End of file
+# ===================================
